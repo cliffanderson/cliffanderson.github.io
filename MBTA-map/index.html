@@ -90,6 +90,7 @@
 
             socket.on('trains', function(info)
             {
+                console.log(info.length + " bytes of train data");
 		//update counter
 		document.getElementById("counter").innerHTML = 30;
                 //put trains on map
